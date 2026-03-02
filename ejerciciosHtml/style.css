@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*importaar la fuente*/
+* {
+    font-family: bre;
+}
+/*descargando las fuentes*/
+@font-face {
+    font-family: 'bree serif';
+    src: url("direccion de la ffuente") format('truetype');
+}
+body{
+    font-family: "forum",serif;
+    color: rgb(219, 187, 155);
+}
+
+:root{
+    --color-principal-verde: rgb(69, 159, 69);
+    --color-principal-naranja:rgb(198, 97, 20);
+    --fondo-secciones:rgb(219, 187, 155);
+
+    --fuente-titulos:'forum';
+    --tamaño-titulos: 35px;
+
+    --margenes-entre-bloques: 100px;
+
+    --borde-redondeado:10px;
+    --borde-grosor:3px;
+    --borde-color:var(--color-principal-naranja);
+    --padding-boton: 10px;
+
+}
+
+.botones-cabecera a{
+    border: var(--borde-grosor) solid var(--borde-color);
+    text-decoration: none;
+    border-radius:  var(--borde-redondeado);
+    padding: var(--padding-boton);
+}
