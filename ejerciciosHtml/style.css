@@ -1,16 +1,23 @@
 *{
-    margin: 0;
+    margin: 12px;
     padding: 0;
     box-sizing: border-box;
 }
-
+/*header{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}*/
 /*importaar la fuente*/
+
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
-    font-family: bre;
+    font-family: "Montserrat", sans-serif;
 }
 /*descargando las fuentes*/
 @font-face {
-    font-family: 'bree serif';
+    font-family: 'nomber de la fuente';
     src: url("direccion de la ffuente") format('truetype');
 }
 body{
